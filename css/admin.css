@@ -1,0 +1,138 @@
+#talepler{
+	display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px);
+}
+#talep {
+    display: flex;
+    margin: 0 0 10px 20px;
+    flex-direction: column;
+}
+#talep:nth-last-child(1){
+  margin: 0 0 0 20px;
+}
+.talep-title{
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 20px;
+  min-width: 350px;
+}
+.talep-cat {
+    font-size: 14px;
+    margin-right: 20px;
+    min-width: 90px;
+}
+.talep-article-count,.talep-done,.talep-date{
+	margin-right: 20px;
+}
+#icerikler {
+    border: 1px solid #ccd0d4;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 3px;
+    margin: 5px 0 20px 0;
+}
+#icerik{
+	display: flex;
+	flex-direction: column;
+  margin-bottom: 10px;
+}
+#icerik:nth-last-child(1){
+  margin-bottom: 0;
+}
+.icerik-title {
+    font-weight: 500;
+    min-width: 780px;
+    margin: -1px 20px 0 5px;
+}
+#icerik-t{
+	display: flex;
+}
+.talep-article-count {
+    min-width: 110px;
+}
+.talep-done {
+    min-width: 180px;
+}
+.talep-date {
+    min-width: 170px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+}
+ul li {
+  margin: 0.5em 0;
+}
+ul li a.toggle {
+  width: calc(100% - 40px);
+  display: flex;
+  margin: -23px 0 5px 25px;
+  padding: 6px 8px;
+  border-radius: 0.15em;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+.selectall {
+    margin-bottom: 30px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccd0d4;
+    padding-bottom: 15px;
+}
+.selectall input{
+  margin-right: 10px;
+}
+#icerik-t input {
+    position: relative;
+    top: 5px;
+}
+ul.accordion {
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+svg.talep-arrow {
+    position: relative;
+    top: 7px;
+    transition: all 0.3s;
+}
+.wrap-ib {
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    padding: 20px 20px 10px 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+}
+#dropdown-sort {
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+}
+.import-done {
+    top: 10px;
+}
+.talepno{
+  display: none;
+}
+.footer {
+    border-top: 1px solid #ccd0d4;
+    padding-top: 14px;
+    margin-top: 40px;
+}
+.logo-footer {
+    height: 24px;
+}
+.footer a:focus{
+  outline: none;
+  box-shadow:none;
+}

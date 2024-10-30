@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: İçerik Bulutu\n"
+"POT-Creation-Date: 2020-10-22 17:39+0300\n"
+"PO-Revision-Date: 2020-10-22 17:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: Rustem Ram\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ib.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: contents.php:108
+msgid "Requests"
+msgstr "Talepler"
+
+#: contents.php:110
+msgid "All Requests"
+msgstr "Tüm Talepler"
+
+#: contents.php:111
+msgid "Blog Requests"
+msgstr "Blog Talepleri"
+
+#: contents.php:112
+msgid "List Requests"
+msgstr "Liste Talepleri"
+
+#: contents.php:118
+msgid "Select All"
+msgstr "Hepsini Seç"
+
+#: contents.php:119
+msgid "Requests Not Found"
+msgstr "Talepler Bulunamadı"
+
+#: contents.php:126
+msgid "Blog Articles"
+msgstr "Blog İçerikleri"
+
+#: contents.php:128
+msgid "List Articles"
+msgstr "Liste İçerikleri"
+
+#: contents.php:130
+msgid "Total Article Count:"
+msgstr "İçerik Sayısı:"
+
+#: contents.php:131
+msgid "Written Article Count:"
+msgstr "Tamamlanan İçerik Sayısı:"
+
+#: contents.php:133 contents.php:163
+msgid "Date:"
+msgstr "Tarih:"
+
+#: contents.php:171
+msgid "Import Selected"
+msgstr "Seçilenleri İçe Aktar"
+
+#: ib.php:23 ib.php:196
+msgid "İçerik Bulutu WordPress Plugin"
+msgstr "İçerik Bulutu WordPress Eklentisi"
+
+#: ib.php:30
+msgid "Save Imported Posts As"
+msgstr "İçe aktarılan içerikleri"
+
+#: ib.php:38
+msgid "Choose Author"
+msgstr "Yazar seç"
+
+#: ib.php:53
+msgid "Published"
+msgstr "Yayınla"
+
+#: ib.php:54
+msgid "Draft"
+msgstr "Taslak Olarak Kaydet"
+
+#: ib.php:75 ib.php:197
+msgid ""
+"Using our WordPress plugin, you can import content from İçerik Bulutu to "
+"your WordPress website either manually or automatically, depending on your "
+"content strategy."
+msgstr ""
+"İçerik Bulutu WordPress Eklentisi ile onayladığınız içerikleri web sitenize "
+"aktarabilirsiniz. Aktardığınız içerikleri dilerseniz otomatik olarak "
+"yayınlayabilir, dilerseniz taslak olarak kaydedip zamanlayabilirsiniz."
+
+#: ib.php:92
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ib.php:100
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: ib.php:122
+msgid "Please enter your API Key First"
+msgstr "Lütfen Önce API Anahtarınızı Giriniz"
+
+#: ib.php:125
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bu sayfaya erişim izniniz yok."
+
+#: ib.php:165
+msgid "Settings Saved"
+msgstr "Ayarlar Kaydedildi"
+
+#: ib.php:171
+msgid "Disconnect to İçerik Bulutu"
+msgstr "İçerik Bulutu Bağlantısını Sonlandır"
+
+#: ib.php:201
+msgid "Enter API Key"
+msgstr "API Anahtarını Gir"
+
+#: ib.php:205
+msgid "Save"
+msgstr "Kaydet"
+
+#: ib.php:232
+msgid "API Key is invalid"
+msgstr "Yanlış API Anahtarı"
+
+#: ib.php:271
+msgid "There is a problem. Please try again later."
+msgstr "Üzgünüz. Bir sorun oluştu. Lütfen daha sonra tekrar deneyin."
+
+#: import.php:13
+msgid "You have not selected any article"
+msgstr "Hiçbir İçerik Seçmediniz"
+
+#: import.php:76
+msgid " <strong style=\"color:green\">article imported</strong>"
+msgstr " adlı <strong style=“color:green”>içerik aktarıldı</strong>"
+
+#: import.php:79
+msgid " <strong style=\"color:red\">previously imported </strong>"
+msgstr ""
+" adlı içerik <strong style=“color:red”>daha önce içe aktarıldı </strong>"
+
+#: import.php:84
+msgid "Done"
+msgstr "İşlem Tamamlandı"
+
+#. Plugin Name of the plugin/theme
+msgid "İçerik Bulutu"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.icerikbulutu.com/teknolojiler/wordpress-entegrasyonu/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Official plugin of Icerik Bulutu. It directly imports and synchronizes "
+"contents written by professional content writers from the Icerik Bulutu"
+msgstr ""
+"İçerik Bulutu WordPress Eklentisi ile onayladığınız içerikleri web sitenize "
+"aktarabilirsiniz. Aktardığınız içerikleri dilerseniz otomatik olarak "
+"yayınlayabilir, dilerseniz taslak olarak kaydedip zamanlayabilirsiniz"
+
+#. Author of the plugin/theme
+msgid "Rustem Ram"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://instagram.com/rustem.ram"
+msgstr ""
